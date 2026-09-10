@@ -220,22 +220,44 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onAuthenticated, onSkipAsGue
             </button>
           </Text>
 
-          {/* Skip / Guest Access Option */}
-          <button
-            type="button"
-            onClick={onSkipAsGuest || handleGuestLogin}
-            style={{
-              background: 'none',
-              border: 'none',
-              color: 'var(--text-muted)',
-              cursor: 'pointer',
-              fontSize: '0.8rem',
-              marginTop: '8px',
-              textDecoration: 'underline',
-            }}
-          >
-            Or explore as Guest Evaluator &rarr;
-          </button>
+          {/* Skip / Guest Access & Demo Fill */}
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', marginTop: '12px' }}>
+            <button
+              type="button"
+              onClick={() => {
+                setEmail('evaluator@binaire.ai');
+                setPassword('password123');
+                setConfirmPassword('password123');
+              }}
+              style={{
+                background: '#f8fafc',
+                border: '1px solid #e2e8f0',
+                color: '#475569',
+                borderRadius: '6px',
+                padding: '6px 14px',
+                fontSize: '0.8rem',
+                cursor: 'pointer',
+                fontWeight: 500,
+              }}
+            >
+              ⚡ Auto-fill Demo Credentials
+            </button>
+
+            <button
+              type="button"
+              onClick={onSkipAsGuest || handleGuestLogin}
+              style={{
+                background: 'none',
+                border: 'none',
+                color: 'var(--text-muted)',
+                cursor: 'pointer',
+                fontSize: '0.8rem',
+                textDecoration: 'underline',
+              }}
+            >
+              Or explore as Guest Evaluator &rarr;
+            </button>
+          </div>
         </Flex>
       </motion.div>
     </div>
