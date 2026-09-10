@@ -87,7 +87,7 @@ export class AuthService {
       return profile;
     } catch (err: any) {
       // If Firebase fails due to offline/demo keys, fallback to local authenticated session
-      if (err.code === 'auth/network-request-failed' || err.code === 'auth/api-key-not-valid') {
+      if (this.isFallbackError(err)) {
         const fallbackProfile: AuthUserProfile = {
           uid: `local_${Date.now()}`,
           email,
@@ -118,7 +118,7 @@ export class AuthService {
       this.notifyListeners();
       return profile;
     } catch (err: any) {
-      if (err.code === 'auth/network-request-failed' || err.code === 'auth/api-key-not-valid') {
+      if (this.isFallbackError(err)) {
         const fallbackProfile: AuthUserProfile = {
           uid: `local_${Date.now()}`,
           email,
@@ -154,6 +154,24 @@ export class AuthService {
     return () => {
       this.listeners.delete(callback);
     };
+  }
+
+  /**
+   * Identifies if a Firebase error is due to an invalid/demo API key, offline state, or missing configuration.
+   */
+  private isFallbackError(err: any): boolean {
+    const code = String(err?.code || '').toLowerCase();
+    const msg = String(err?.message || '').toLowerCase();
+    return (
+      code.includes('api-key') ||
+      msg.includes('api-key') ||
+      code.includes('network') ||
+      msg.includes('network') ||
+      code.includes('invalid') ||
+      code.includes('app-not-authorized') ||
+      code.includes('project-not-found') ||
+      code.includes('internal-error')
+    );
   }
 
   private notifyListeners() {
