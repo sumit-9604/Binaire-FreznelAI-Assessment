@@ -1,0 +1,33 @@
+{
+  "name": "binaire-freznel-assessment",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "tsx test/backend_e2e_runner.ts"
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.47.5",
+    "@spectrum-icons/workflow": "^4.3.2",
+    "firebase": "^10.12.0",
+    "framer-motion": "^11.2.0",
+    "idb": "^8.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "fake-indexeddb": "^6.2.5",
+    "tsx": "^4.23.13",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}

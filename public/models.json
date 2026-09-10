@@ -1,0 +1,6637 @@
+{
+  "models": [
+    {
+      "id": "meta-llama/Llama-3.1-8B",
+      "display_name": "Llama 3.1 8B (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-3.1-8B",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "201",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-3.1-8B --local-dir ./models/Llama_31_8B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.1-70B",
+      "display_name": "Llama 3.1 70B (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-3.1-70B",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.1-70B",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "128",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-3.1-70B --local-dir ./models/Llama_31_70B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.1-405B",
+      "display_name": "Llama 3.1 405B (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-3.1-405B",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.1-405B",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "256",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-3.1-405B --local-dir ./models/Llama_31_405B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "display_name": "Llama 3.2 1B (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-3.2-1B-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-3.2-1B-Instruct --local-dir ./models/Llama_32_1B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.2-3B-Instruct",
+      "display_name": "Llama 3.2 3B (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-3.2-3B-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-3.2-3B-Instruct --local-dir ./models/Llama_32_3B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "display_name": "Llama 3 8B (Instruct)",
+      "huggingface_repo": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "74",
+      "cli_download_command": "huggingface-cli download meta-llama/Meta-Llama-3-8B-Instruct --local-dir ./models/Meta_Llama_3_8B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "display_name": "Llama 3 70B (Instruct)",
+      "huggingface_repo": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "74",
+      "cli_download_command": "huggingface-cli download meta-llama/Meta-Llama-3-70B-Instruct --local-dir ./models/Meta_Llama_3_70B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-2-7b-chat-hf",
+      "display_name": "Llama 2 7B (Chat HF)",
+      "huggingface_repo": "meta-llama/Llama-2-7b-chat-hf",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16/FP16 (gated; verify on HF page)",
+      "safetensor_file_count": "8",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-2-7b-chat-hf --local-dir ./models/Llama_2_7b_chat_hf",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama2"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama2",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-2-13b-chat-hf",
+      "display_name": "Llama 2 13B (Chat HF)",
+      "huggingface_repo": "meta-llama/Llama-2-13b-chat-hf",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-2-13b-chat-hf",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16/FP16 (gated; verify on HF page)",
+      "safetensor_file_count": "8",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-2-13b-chat-hf --local-dir ./models/Llama_2_13b_chat_hf",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama2"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama2",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-2-70b-chat-hf",
+      "display_name": "Llama 2 70B (Chat HF)",
+      "huggingface_repo": "meta-llama/Llama-2-70b-chat-hf",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-2-70b-chat-hf",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16/FP16 (gated; verify on HF page)",
+      "safetensor_file_count": "8",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-2-70b-chat-hf --local-dir ./models/Llama_2_70b_chat_hf",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama2"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama2",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+      "display_name": "Llama 3.2 11B Vision (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "LLaMAForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "82",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-3.2-11B-Vision-Instruct --local-dir ./models/Llama_32_11B_Vision_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.2-90B-Vision-Instruct",
+      "display_name": "Llama 3.2 90B Vision (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-3.2-90B-Vision-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "LLaMAForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "82",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-3.2-90B-Vision-Instruct --local-dir ./models/Llama_32_90B_Vision_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.3-70B-Instruct",
+      "display_name": "Llama 3.3 70B (Instruct)",
+      "huggingface_repo": "meta-llama/Meta-Llama-3.3-70B-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Meta-Llama-3.3-70B-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "82",
+      "cli_download_command": "huggingface-cli download meta-llama/Meta-Llama-3.3-70B-Instruct --local-dir ./models/Meta_Llama_33_70B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-4-16x17B-Instruct",
+      "display_name": "Llama 4 16x17B MoE (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-4-16x17B-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-4-16x17B-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-4-16x17B-Instruct --local-dir ./models/Llama_4_16x17B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-4-128x17B-Instruct",
+      "display_name": "Llama 4 128x17B MoE (Instruct)",
+      "huggingface_repo": "meta-llama/Llama-4-128x17B-Instruct",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-4-128x17B-Instruct",
+      "family": "Llama (Meta)",
+      "author_namespace": "meta-llama",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "LLaMAForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download meta-llama/Llama-4-128x17B-Instruct --local-dir ./models/Llama_4_128x17B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:llama3.1"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "llama"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:llama3.1",
+          "bf16-gated",
+          "llama",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=meta-llama&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3.6-27B",
+      "display_name": "Qwen3.6 27B",
+      "huggingface_repo": "Qwen/Qwen3.6-27B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen3ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "35",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3.6-27B --local-dir ./models/Qwen36_27B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3.5-35B-A3B",
+      "display_name": "Qwen3.5 35B-A3B MoE",
+      "huggingface_repo": "Qwen/Qwen3.5-35B-A3B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen3_5MoeForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "28",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3.5-35B-A3B --local-dir ./models/Qwen35_35B_A3B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-4B",
+      "display_name": "Qwen3 4B Dense",
+      "huggingface_repo": "Qwen/Qwen3-4B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-4B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen3ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "3",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-4B --local-dir ./models/Qwen3_4B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-14B",
+      "display_name": "Qwen3 14B Dense",
+      "huggingface_repo": "Qwen/Qwen3-14B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-14B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen3ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "5",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-14B --local-dir ./models/Qwen3_14B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-30B-A3B",
+      "display_name": "Qwen3 30B-A3B MoE",
+      "huggingface_repo": "Qwen/Qwen3-30B-A3B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen3MoeForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "32",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-30B-A3B --local-dir ./models/Qwen3_30B_A3B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen",
+          "mixtral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "mixtral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-32B",
+      "display_name": "Qwen3 32B MoE",
+      "huggingface_repo": "Qwen/Qwen3-32B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-32B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen3MoeForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "3",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-32B --local-dir ./models/Qwen3_32B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen",
+          "mixtral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "mixtral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B",
+      "display_name": "Qwen3 235B-A22B MoE",
+      "huggingface_repo": "Qwen/Qwen3-235B-A22B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen3MoeForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "236",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-235B-A22B --local-dir ./models/Qwen3_235B_A22B",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen",
+          "mixtral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "mixtral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/QwQ-32B-Preview",
+      "display_name": "QwQ 32B Preview (Reasoning)",
+      "huggingface_repo": "Qwen/QwQ-32B-Preview",
+      "repo_url": "https://huggingface.co/Qwen/QwQ-32B-Preview",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Reasoning",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "18",
+      "cli_download_command": "huggingface-cli download Qwen/QwQ-32B-Preview --local-dir ./models/QwQ_32B_Preview",
+      "hf_tags": {
+        "pipeline_tag": "reasoning",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "reasoning"
+        ],
+        "modality": [],
+        "application": [
+          "reasoning"
+        ],
+        "adapter_finetune": [
+          "sft",
+          "rlhf",
+          "dpo"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "reasoning",
+          "sft",
+          "rlhf",
+          "dpo",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "display_name": "Qwen3 Coder 30B-A3B MoE (Instruct)",
+      "huggingface_repo": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "MoE",
+      "use_case": "Coding",
+      "pytorch_architecture": "Qwen3MoeForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "32",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-Coder-30B-A3B-Instruct --local-dir ./models/Qwen3_Coder_30B_A3B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen",
+          "mixtral"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "mixtral",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "display_name": "Qwen3 Coder 480B-A35B MoE (Instruct)",
+      "huggingface_repo": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "MoE",
+      "use_case": "Coding",
+      "pytorch_architecture": "Qwen3MoeForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "482",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-Coder-480B-A35B-Instruct --local-dir ./models/Qwen3_Coder_480B_A35B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen",
+          "mixtral"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "mixtral",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "display_name": "Qwen2.5 Coder 0.5B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Coder-0.5B-Instruct --local-dir ./models/Qwen25_Coder_05B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "display_name": "Qwen2.5 Coder 1.5B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Coder-1.5B-Instruct --local-dir ./models/Qwen25_Coder_15B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-3B-Instruct",
+      "display_name": "Qwen2.5 Coder 3B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Coder-3B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Coder-3B-Instruct --local-dir ./models/Qwen25_Coder_3B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "display_name": "Qwen2.5 Coder 7B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Coder-7B-Instruct --local-dir ./models/Qwen25_Coder_7B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-14B-Instruct",
+      "display_name": "Qwen2.5 Coder 14B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Coder-14B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "7",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Coder-14B-Instruct --local-dir ./models/Qwen25_Coder_14B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "display_name": "Qwen2.5 Coder 32B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "15",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Coder-32B-Instruct --local-dir ./models/Qwen25_Coder_32B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-VL-2B-Instruct",
+      "display_name": "Qwen3 VL 2B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen3-VL-2B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Qwen3VLForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "2",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-VL-2B-Instruct --local-dir ./models/Qwen3_VL_2B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-VL-4B-Instruct",
+      "display_name": "Qwen3 VL 4B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen3-VL-4B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Qwen3VLForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-VL-4B-Instruct --local-dir ./models/Qwen3_VL_4B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-VL-8B-Instruct",
+      "display_name": "Qwen3 VL 8B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen3-VL-8B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Qwen3VLForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "8",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-VL-8B-Instruct --local-dir ./models/Qwen3_VL_8B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-VL-32B-Instruct",
+      "display_name": "Qwen3 VL 32B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen3-VL-32B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-VL-32B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Qwen3VLForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "35",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-VL-32B-Instruct --local-dir ./models/Qwen3_VL_32B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-VL-3B-Instruct",
+      "display_name": "Qwen2.5 VL 3B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-VL-3B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Qwen2_5_VLForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "2",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-VL-3B-Instruct --local-dir ./models/Qwen25_VL_3B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "display_name": "Qwen2.5 VL 7B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Qwen2_5_VLForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "6",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-VL-7B-Instruct --local-dir ./models/Qwen25_VL_7B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-VL-32B-Instruct",
+      "display_name": "Qwen2.5 VL 32B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-VL-32B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Qwen2_5_VLForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "19",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-VL-32B-Instruct --local-dir ./models/Qwen25_VL_32B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "display_name": "Qwen2.5 VL 72B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Qwen2_5_VLForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "39",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-VL-72B-Instruct --local-dir ./models/Qwen25_VL_72B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-Embedding-0.6B",
+      "display_name": "Qwen3 Embedding 0.6B",
+      "huggingface_repo": "Qwen/Qwen3-Embedding-0.6B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Embedding",
+      "pytorch_architecture": "Qwen3ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-Embedding-0.6B --local-dir ./models/Qwen3_Embedding_06B",
+      "hf_tags": {
+        "pipeline_tag": "sentence-similarity",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "sentence-similarity"
+        ],
+        "modality": [],
+        "application": [
+          "sentence-similarity"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "sentence-similarity",
+          "sft"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-Embedding-4B",
+      "display_name": "Qwen3 Embedding 4B",
+      "huggingface_repo": "Qwen/Qwen3-Embedding-4B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-Embedding-4B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Embedding",
+      "pytorch_architecture": "Qwen3ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "2",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-Embedding-4B --local-dir ./models/Qwen3_Embedding_4B",
+      "hf_tags": {
+        "pipeline_tag": "sentence-similarity",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "sentence-similarity"
+        ],
+        "modality": [],
+        "application": [
+          "sentence-similarity"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "sentence-similarity",
+          "sft"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen3-Embedding-8B",
+      "display_name": "Qwen3 Embedding 8B",
+      "huggingface_repo": "Qwen/Qwen3-Embedding-8B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-Embedding-8B",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Embedding",
+      "pytorch_architecture": "Qwen3ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "5",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen3-Embedding-8B --local-dir ./models/Qwen3_Embedding_8B",
+      "hf_tags": {
+        "pipeline_tag": "sentence-similarity",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "sentence-similarity"
+        ],
+        "modality": [],
+        "application": [
+          "sentence-similarity"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "sentence-similarity",
+          "sft"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+      "display_name": "Qwen2.5 Math 1.5B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Math",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Math-1.5B-Instruct --local-dir ./models/Qwen25_Math_15B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "math",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "math"
+        ],
+        "modality": [],
+        "application": [
+          "math"
+        ],
+        "adapter_finetune": [
+          "sft",
+          "rlhf",
+          "dpo"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "math",
+          "sft",
+          "rlhf",
+          "dpo",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Math-7B-Instruct",
+      "display_name": "Qwen2.5 Math 7B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Math-7B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Math",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Math-7B-Instruct --local-dir ./models/Qwen25_Math_7B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "math",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "math"
+        ],
+        "modality": [],
+        "application": [
+          "math"
+        ],
+        "adapter_finetune": [
+          "sft",
+          "rlhf",
+          "dpo"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "math",
+          "sft",
+          "rlhf",
+          "dpo",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Math-72B-Instruct",
+      "display_name": "Qwen2.5 Math 72B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-Math-72B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Math-72B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Math",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "38",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-Math-72B-Instruct --local-dir ./models/Qwen25_Math_72B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "math",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "math"
+        ],
+        "modality": [],
+        "application": [
+          "math"
+        ],
+        "adapter_finetune": [
+          "sft",
+          "rlhf",
+          "dpo"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "math",
+          "sft",
+          "rlhf",
+          "dpo",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "display_name": "Qwen2.5 0.5B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-0.5B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-0.5B-Instruct --local-dir ./models/Qwen25_05B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "display_name": "Qwen2.5 1.5B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-1.5B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-1.5B-Instruct --local-dir ./models/Qwen25_15B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-3B-Instruct",
+      "display_name": "Qwen2.5 3B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-3B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-3B-Instruct --local-dir ./models/Qwen25_3B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "display_name": "Qwen2.5 7B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-7B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-7B-Instruct --local-dir ./models/Qwen25_7B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "display_name": "Qwen2.5 14B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-14B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "8",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-14B-Instruct --local-dir ./models/Qwen25_14B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-32B-Instruct",
+      "display_name": "Qwen2.5 32B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-32B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "17",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-32B-Instruct --local-dir ./models/Qwen25_32B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-72B-Instruct",
+      "display_name": "Qwen2.5 72B (Instruct)",
+      "huggingface_repo": "Qwen/Qwen2.5-72B-Instruct",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "38",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen2.5-72B-Instruct --local-dir ./models/Qwen25_72B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen1.5-0.5B-Chat",
+      "display_name": "Qwen1.5 0.5B (Chat)",
+      "huggingface_repo": "Qwen/Qwen1.5-0.5B-Chat",
+      "repo_url": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen1.5-0.5B-Chat --local-dir ./models/Qwen15_05B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen1.5-1.8B-Chat",
+      "display_name": "Qwen1.5 1.8B (Chat)",
+      "huggingface_repo": "Qwen/Qwen1.5-1.8B-Chat",
+      "repo_url": "https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen1.5-1.8B-Chat --local-dir ./models/Qwen15_18B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen1.5-4B-Chat",
+      "display_name": "Qwen1.5 4B (Chat)",
+      "huggingface_repo": "Qwen/Qwen1.5-4B-Chat",
+      "repo_url": "https://huggingface.co/Qwen/Qwen1.5-4B-Chat",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen1.5-4B-Chat --local-dir ./models/Qwen15_4B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen1.5-7B-Chat",
+      "display_name": "Qwen1.5 7B (Chat)",
+      "huggingface_repo": "Qwen/Qwen1.5-7B-Chat",
+      "repo_url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen1.5-7B-Chat --local-dir ./models/Qwen15_7B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen1.5-14B-Chat",
+      "display_name": "Qwen1.5 14B (Chat)",
+      "huggingface_repo": "Qwen/Qwen1.5-14B-Chat",
+      "repo_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen1.5-14B-Chat --local-dir ./models/Qwen15_14B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen1.5-32B-Chat",
+      "display_name": "Qwen1.5 32B (Chat)",
+      "huggingface_repo": "Qwen/Qwen1.5-32B-Chat",
+      "repo_url": "https://huggingface.co/Qwen/Qwen1.5-32B-Chat",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen1.5-32B-Chat --local-dir ./models/Qwen15_32B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen1.5-72B-Chat",
+      "display_name": "Qwen1.5 72B (Chat)",
+      "huggingface_repo": "Qwen/Qwen1.5-72B-Chat",
+      "repo_url": "https://huggingface.co/Qwen/Qwen1.5-72B-Chat",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "39",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen1.5-72B-Chat --local-dir ./models/Qwen15_72B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "Qwen/Qwen1.5-110B-Chat",
+      "display_name": "Qwen1.5 110B (Chat)",
+      "huggingface_repo": "Qwen/Qwen1.5-110B-Chat",
+      "repo_url": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat",
+      "family": "Qwen (Alibaba)",
+      "author_namespace": "Qwen",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Qwen2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "63",
+      "cli_download_command": "huggingface-cli download Qwen/Qwen1.5-110B-Chat --local-dir ./models/Qwen15_110B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:qwen"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "qwen"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:qwen",
+          "bf16",
+          "qwen",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=Qwen&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-4-5b-it",
+      "display_name": "Gemma 4 5.1B IT (MoE)",
+      "huggingface_repo": "google/gemma-4-5b-it",
+      "repo_url": "https://huggingface.co/google/gemma-4-5b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma4ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-4-5b-it --local-dir ./models/gemma_4_5b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-4-12b-it",
+      "display_name": "Gemma 4 12B IT",
+      "huggingface_repo": "google/gemma-4-12b-it",
+      "repo_url": "https://huggingface.co/google/gemma-4-12b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma4ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-4-12b-it --local-dir ./models/gemma_4_12b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-4-26b-it",
+      "display_name": "Gemma 4 26B IT",
+      "huggingface_repo": "google/gemma-4-26b-it",
+      "repo_url": "https://huggingface.co/google/gemma-4-26b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma4ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-4-26b-it --local-dir ./models/gemma_4_26b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-3-270m-it",
+      "display_name": "Gemma 3 270M IT",
+      "huggingface_repo": "google/gemma-3-270m-it",
+      "repo_url": "https://huggingface.co/google/gemma-3-270m-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma3ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-3-270m-it --local-dir ./models/gemma_3_270m_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-3-1b-it",
+      "display_name": "Gemma 3 1B IT",
+      "huggingface_repo": "google/gemma-3-1b-it",
+      "repo_url": "https://huggingface.co/google/gemma-3-1b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma3ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-3-1b-it --local-dir ./models/gemma_3_1b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-3-4b-it",
+      "display_name": "Gemma 3 4B IT",
+      "huggingface_repo": "google/gemma-3-4b-it",
+      "repo_url": "https://huggingface.co/google/gemma-3-4b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma3ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-3-4b-it --local-dir ./models/gemma_3_4b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-3-12b-it",
+      "display_name": "Gemma 3 12B IT",
+      "huggingface_repo": "google/gemma-3-12b-it",
+      "repo_url": "https://huggingface.co/google/gemma-3-12b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma3ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-3-12b-it --local-dir ./models/gemma_3_12b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "display_name": "Gemma 3 27B IT",
+      "huggingface_repo": "google/gemma-3-27b-it",
+      "repo_url": "https://huggingface.co/google/gemma-3-27b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma3ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-3-27b-it --local-dir ./models/gemma_3_27b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-3n-e4b-it",
+      "display_name": "Gemma 3n e4B IT",
+      "huggingface_repo": "google/gemma-3n-e4b-it",
+      "repo_url": "https://huggingface.co/google/gemma-3n-e4b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "Gemma3nForConditionalGeneration",
+      "weight_format": "BF16",
+      "safetensor_file_count": "6",
+      "cli_download_command": "huggingface-cli download google/gemma-3n-e4b-it --local-dir ./models/gemma_3n_e4b_it",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16",
+          "gemma",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-2-2b-it",
+      "display_name": "Gemma 2 2B IT",
+      "huggingface_repo": "google/gemma-2-2b-it",
+      "repo_url": "https://huggingface.co/google/gemma-2-2b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma2ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-2-2b-it --local-dir ./models/gemma_2_2b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-2-9b-it",
+      "display_name": "Gemma 2 9B IT",
+      "huggingface_repo": "google/gemma-2-9b-it",
+      "repo_url": "https://huggingface.co/google/gemma-2-9b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma2ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-2-9b-it --local-dir ./models/gemma_2_9b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-2-27b-it",
+      "display_name": "Gemma 2 27B IT",
+      "huggingface_repo": "google/gemma-2-27b-it",
+      "repo_url": "https://huggingface.co/google/gemma-2-27b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "Gemma2ForConditionalGeneration",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/gemma-2-27b-it --local-dir ./models/gemma_2_27b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-2b-it",
+      "display_name": "Gemma 1.1 2B IT",
+      "huggingface_repo": "google/gemma-2b-it",
+      "repo_url": "https://huggingface.co/google/gemma-2b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "GemmaForConditionalGeneration",
+      "weight_format": "FP16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download google/gemma-2b-it --local-dir ./models/gemma_2b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/gemma-7b-it",
+      "display_name": "Gemma 1.1 7B IT",
+      "huggingface_repo": "google/gemma-7b-it",
+      "repo_url": "https://huggingface.co/google/gemma-7b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Vision-Language",
+      "pytorch_architecture": "GemmaForConditionalGeneration",
+      "weight_format": "FP16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download google/gemma-7b-it --local-dir ./models/gemma_7b_it",
+      "hf_tags": {
+        "pipeline_tag": "vision-language",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation",
+          "multimodal"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "multimodal"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "text-generation",
+          "multimodal",
+          "vision-language",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/codegemma-2b-it",
+      "display_name": "CodeGemma 2B IT",
+      "huggingface_repo": "google/codegemma-2b-it",
+      "repo_url": "https://huggingface.co/google/codegemma-2b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "CodeGemmaForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download google/codegemma-2b-it --local-dir ./models/codegemma_2b_it",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16-gated",
+          "gemma",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/codegemma-7b-it",
+      "display_name": "CodeGemma 7B IT",
+      "huggingface_repo": "google/codegemma-7b-it",
+      "repo_url": "https://huggingface.co/google/codegemma-7b-it",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "CodeGemmaForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download google/codegemma-7b-it --local-dir ./models/codegemma_7b_it",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "bf16",
+          "gemma",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/shieldgemma-2b-pm",
+      "display_name": "ShieldGemma 2B PM",
+      "huggingface_repo": "google/shieldgemma-2b-pm",
+      "repo_url": "https://huggingface.co/google/shieldgemma-2b-pm",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Safety",
+      "pytorch_architecture": "ShieldGemmaForConditionalGeneration",
+      "weight_format": "FP16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download google/shieldgemma-2b-pm --local-dir ./models/shieldgemma_2b_pm",
+      "hf_tags": {
+        "pipeline_tag": "text-classification",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-classification",
+          "safety-moderation"
+        ],
+        "modality": [],
+        "application": [
+          "text-classification",
+          "safety-moderation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "text-classification",
+          "safety-moderation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/shieldgemma-9b-pm",
+      "display_name": "ShieldGemma 9B PM",
+      "huggingface_repo": "google/shieldgemma-9b-pm",
+      "repo_url": "https://huggingface.co/google/shieldgemma-9b-pm",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Safety",
+      "pytorch_architecture": "ShieldGemmaForConditionalGeneration",
+      "weight_format": "FP16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download google/shieldgemma-9b-pm --local-dir ./models/shieldgemma_9b_pm",
+      "hf_tags": {
+        "pipeline_tag": "text-classification",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-classification",
+          "safety-moderation"
+        ],
+        "modality": [],
+        "application": [
+          "text-classification",
+          "safety-moderation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "text-classification",
+          "safety-moderation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/shieldgemma-27b-pm",
+      "display_name": "ShieldGemma 27B PM",
+      "huggingface_repo": "google/shieldgemma-27b-pm",
+      "repo_url": "https://huggingface.co/google/shieldgemma-27b-pm",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Safety",
+      "pytorch_architecture": "ShieldGemmaForConditionalGeneration",
+      "weight_format": "FP16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download google/shieldgemma-27b-pm --local-dir ./models/shieldgemma_27b_pm",
+      "hf_tags": {
+        "pipeline_tag": "text-classification",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-classification",
+          "safety-moderation"
+        ],
+        "modality": [],
+        "application": [
+          "text-classification",
+          "safety-moderation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "text-classification",
+          "safety-moderation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/medgemma-4b-pm",
+      "display_name": "MedGemma 4B PM",
+      "huggingface_repo": "google/medgemma-4b-pm",
+      "repo_url": "https://huggingface.co/google/medgemma-4b-pm",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Medical",
+      "pytorch_architecture": "MedGemmaForConditionalGeneration",
+      "weight_format": "FP16",
+      "safetensor_file_count": "3",
+      "cli_download_command": "huggingface-cli download google/medgemma-4b-pm --local-dir ./models/medgemma_4b_pm",
+      "hf_tags": {
+        "pipeline_tag": "medical",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "medical"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "medical"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "medical",
+          "vision-language",
+          "multimodal",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/medgemma-27b-pm",
+      "display_name": "MedGemma 27B PM",
+      "huggingface_repo": "google/medgemma-27b-pm",
+      "repo_url": "https://huggingface.co/google/medgemma-27b-pm",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense + Vision",
+      "use_case": "Medical",
+      "pytorch_architecture": "MedGemmaForConditionalGeneration",
+      "weight_format": "FP16",
+      "safetensor_file_count": "3",
+      "cli_download_command": "huggingface-cli download google/medgemma-27b-pm --local-dir ./models/medgemma_27b_pm",
+      "hf_tags": {
+        "pipeline_tag": "medical",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "medical"
+        ],
+        "modality": [
+          "vision-language",
+          "multimodal"
+        ],
+        "application": [
+          "medical"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "medical",
+          "vision-language",
+          "multimodal",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/translategemma-4b",
+      "display_name": "TranslateGemma 4B",
+      "huggingface_repo": "google/translategemma-4b",
+      "repo_url": "https://huggingface.co/google/translategemma-4b",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Translation",
+      "pytorch_architecture": "TranslateGemmaForCausalLM",
+      "weight_format": "FP16",
+      "safetensor_file_count": "3",
+      "cli_download_command": "huggingface-cli download google/translategemma-4b --local-dir ./models/translategemma_4b",
+      "hf_tags": {
+        "pipeline_tag": "translation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "translation"
+        ],
+        "modality": [],
+        "application": [
+          "translation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "translation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/translategemma-12b",
+      "display_name": "TranslateGemma 12B",
+      "huggingface_repo": "google/translategemma-12b",
+      "repo_url": "https://huggingface.co/google/translategemma-12b",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Translation",
+      "pytorch_architecture": "TranslateGemmaForCausalLM",
+      "weight_format": "FP16",
+      "safetensor_file_count": "3",
+      "cli_download_command": "huggingface-cli download google/translategemma-12b --local-dir ./models/translategemma_12b",
+      "hf_tags": {
+        "pipeline_tag": "translation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "translation"
+        ],
+        "modality": [],
+        "application": [
+          "translation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "translation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/translategemma-27b",
+      "display_name": "TranslateGemma 27B",
+      "huggingface_repo": "google/translategemma-27b",
+      "repo_url": "https://huggingface.co/google/translategemma-27b",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Translation",
+      "pytorch_architecture": "TranslateGemmaForCausalLM",
+      "weight_format": "FP16",
+      "safetensor_file_count": "3",
+      "cli_download_command": "huggingface-cli download google/translategemma-27b --local-dir ./models/translategemma_27b",
+      "hf_tags": {
+        "pipeline_tag": "translation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "translation"
+        ],
+        "modality": [],
+        "application": [
+          "translation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "translation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "google/functiongemma-270m",
+      "display_name": "FunctionGemma 270M",
+      "huggingface_repo": "google/functiongemma-270m",
+      "repo_url": "https://huggingface.co/google/functiongemma-270m",
+      "family": "Gemma (Google)",
+      "author_namespace": "google",
+      "architecture_category": "Dense",
+      "use_case": "Function Calling",
+      "pytorch_architecture": "FunctionGemmaForCausalLM",
+      "weight_format": "FP16",
+      "safetensor_file_count": "1",
+      "cli_download_command": "huggingface-cli download google/functiongemma-270m --local-dir ./models/functiongemma_270m",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:gemma"
+        ],
+        "quantization": [
+          "fp16"
+        ],
+        "architecture": [
+          "gemma"
+        ],
+        "task_domain": [
+          "text-generation"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:gemma",
+          "fp16",
+          "gemma",
+          "text-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=google&sort=downloads\""
+      ]
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1",
+      "display_name": "DeepSeek R1 671B MoE (Reasoning)",
+      "huggingface_repo": "deepseek-ai/DeepSeek-R1",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "family": "DeepSeek",
+      "author_namespace": "deepseek-ai",
+      "architecture_category": "MoE",
+      "use_case": "Reasoning",
+      "pytorch_architecture": "DeepseekV3ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "163",
+      "cli_download_command": "huggingface-cli download deepseek-ai/DeepSeek-R1 --local-dir ./models/DeepSeek_R1",
+      "hf_tags": {
+        "pipeline_tag": "reasoning",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "deepseek-v3"
+        ],
+        "task_domain": [
+          "text-generation",
+          "reasoning"
+        ],
+        "modality": [],
+        "application": [
+          "reasoning"
+        ],
+        "adapter_finetune": [
+          "sft",
+          "rlhf",
+          "dpo"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "deepseek-v3",
+          "text-generation",
+          "reasoning",
+          "sft",
+          "rlhf",
+          "dpo",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=deepseek-ai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3",
+      "display_name": "DeepSeek V3 671B MoE (Chat)",
+      "huggingface_repo": "deepseek-ai/DeepSeek-V3",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+      "family": "DeepSeek",
+      "author_namespace": "deepseek-ai",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "DeepseekV3ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "163",
+      "cli_download_command": "huggingface-cli download deepseek-ai/DeepSeek-V3 --local-dir ./models/DeepSeek_V3",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "deepseek-v3"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "deepseek-v3",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=deepseek-ai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Flash",
+      "display_name": "DeepSeek V4 Flash 284B MoE",
+      "huggingface_repo": "deepseek-ai/DeepSeek-V4-Flash",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "family": "DeepSeek",
+      "author_namespace": "deepseek-ai",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "DeepseekV4ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "46",
+      "cli_download_command": "huggingface-cli download deepseek-ai/DeepSeek-V4-Flash --local-dir ./models/DeepSeek_V4_Flash",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "deepseek-v4"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "deepseek-v4",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=deepseek-ai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "display_name": "DeepSeek Coder V2 Lite 16B MoE (Instruct)",
+      "huggingface_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "family": "DeepSeek",
+      "author_namespace": "deepseek-ai",
+      "architecture_category": "MoE",
+      "use_case": "Coding",
+      "pytorch_architecture": "DeepseekV2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct --local-dir ./models/DeepSeek_Coder_V2_Lite_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "deepseek-v2"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "deepseek-v2",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=deepseek-ai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
+      "display_name": "DeepSeek Coder V2 236B MoE (Instruct)",
+      "huggingface_repo": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
+      "family": "DeepSeek",
+      "author_namespace": "deepseek-ai",
+      "architecture_category": "MoE",
+      "use_case": "Coding",
+      "pytorch_architecture": "DeepseekV2ForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download deepseek-ai/DeepSeek-Coder-V2-Instruct --local-dir ./models/DeepSeek_Coder_V2_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "deepseek-v2"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "deepseek-v2",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=deepseek-ai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-LLM-7B-Chat",
+      "display_name": "DeepSeek LLM 7B (Chat)",
+      "huggingface_repo": "deepseek-ai/DeepSeek-LLM-7B-Chat",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-LLM-7B-Chat",
+      "family": "DeepSeek",
+      "author_namespace": "deepseek-ai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "DeepseekForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download deepseek-ai/DeepSeek-LLM-7B-Chat --local-dir ./models/DeepSeek_LLM_7B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "deepseek"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "deepseek",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=deepseek-ai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-LLM-67B-Chat",
+      "display_name": "DeepSeek LLM 67B (Chat)",
+      "huggingface_repo": "deepseek-ai/DeepSeek-LLM-67B-Chat",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-LLM-67B-Chat",
+      "family": "DeepSeek",
+      "author_namespace": "deepseek-ai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "DeepseekForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download deepseek-ai/DeepSeek-LLM-67B-Chat --local-dir ./models/DeepSeek_LLM_67B_Chat",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "deepseek"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "deepseek",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=deepseek-ai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-Small-24B-Instruct-2506",
+      "display_name": "Mistral Small 24B IT-2506",
+      "huggingface_repo": "mistralai/Mistral-Small-24B-Instruct-2506",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2506",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download mistralai/Mistral-Small-24B-Instruct-2506 --local-dir ./models/Mistral_Small_24B_Instruct_2506",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16-gated",
+          "mistral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-Small-24b-instruct-2501",
+      "display_name": "Mistral Small 24B IT-2501",
+      "huggingface_repo": "mistralai/Mistral-Small-24b-instruct-2501",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-Small-24b-instruct-2501",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "9",
+      "cli_download_command": "huggingface-cli download mistralai/Mistral-Small-24b-instruct-2501 --local-dir ./models/Mistral_Small_24b_instruct_2501",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "mistral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-Small-3-24B-Instruct",
+      "display_name": "Mistral Small 3 24B IT",
+      "huggingface_repo": "mistralai/Mistral-Small-3-24B-Instruct",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-Small-3-24B-Instruct",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download mistralai/Mistral-Small-3-24B-Instruct --local-dir ./models/Mistral_Small_3_24B_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16-gated",
+          "mistral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Nemo-2407-Instruct",
+      "display_name": "Mistral Nemo 12B (Instruct)",
+      "huggingface_repo": "mistralai/Nemo-2407-Instruct",
+      "repo_url": "https://huggingface.co/mistralai/Nemo-2407-Instruct",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download mistralai/Nemo-2407-Instruct --local-dir ./models/Nemo_2407_Instruct",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16-gated",
+          "mistral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-Large-Instruct-2411",
+      "display_name": "Mistral Large 123B IT-2411",
+      "huggingface_repo": "mistralai/Mistral-Large-Instruct-2411",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2411",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16 (gated; verify on HF page)",
+      "safetensor_file_count": "TBD",
+      "cli_download_command": "huggingface-cli download mistralai/Mistral-Large-Instruct-2411 --local-dir ./models/Mistral_Large_Instruct_2411",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16-gated"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16-gated",
+          "mistral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Codestral-22B-v0.1",
+      "display_name": "Codestral 22B",
+      "huggingface_repo": "mistralai/Codestral-22B-v0.1",
+      "repo_url": "https://huggingface.co/mistralai/Codestral-22B-v0.1",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Coding",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "10",
+      "cli_download_command": "huggingface-cli download mistralai/Codestral-22B-v0.1 --local-dir ./models/Codestral_22B_v01",
+      "hf_tags": {
+        "pipeline_tag": "coding",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "code-completion",
+          "code-generation"
+        ],
+        "modality": [],
+        "application": [
+          "code-completion",
+          "code-generation"
+        ],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "mistral",
+          "code-completion",
+          "code-generation",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "display_name": "Mistral 7B Instruct v0.3",
+      "huggingface_repo": "mistralai/Mistral-7B-Instruct-v0.3",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download mistralai/Mistral-7B-Instruct-v0.3 --local-dir ./models/Mistral_7B_Instruct_v03",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "mistral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "display_name": "Mistral 7B Instruct v0.2",
+      "huggingface_repo": "mistralai/Mistral-7B-Instruct-v0.2",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download mistralai/Mistral-7B-Instruct-v0.2 --local-dir ./models/Mistral_7B_Instruct_v02",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "mistral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "display_name": "Mistral 7B Instruct v0.1",
+      "huggingface_repo": "mistralai/Mistral-7B-Instruct-v0.1",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "Dense",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MistralForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "4",
+      "cli_download_command": "huggingface-cli download mistralai/Mistral-7B-Instruct-v0.1 --local-dir ./models/Mistral_7B_Instruct_v01",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "mistral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "mistral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    },
+    {
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "display_name": "Mixtral 8x7B Instruct v0.1 MoE",
+      "huggingface_repo": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "repo_url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "family": "Mistral (Mistral AI)",
+      "author_namespace": "mistralai",
+      "architecture_category": "MoE",
+      "use_case": "Text Generation",
+      "pytorch_architecture": "MixtralForCausalLM",
+      "weight_format": "BF16",
+      "safetensor_file_count": "32",
+      "cli_download_command": "huggingface-cli download mistralai/Mixtral-8x7B-Instruct-v0.1 --local-dir ./models/Mixtral_8x7B_Instruct_v01",
+      "hf_tags": {
+        "pipeline_tag": "text-generation",
+        "framework": [
+          "pytorch",
+          "transformers",
+          "safetensors"
+        ],
+        "license": [
+          "license:apache-2.0"
+        ],
+        "quantization": [
+          "bf16"
+        ],
+        "architecture": [
+          "mixtral"
+        ],
+        "task_domain": [
+          "text-generation",
+          "conversational"
+        ],
+        "modality": [],
+        "application": [],
+        "adapter_finetune": [
+          "sft"
+        ],
+        "safety_policy": [],
+        "inference_serving": [
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ],
+        "all_tags": [
+          "pytorch",
+          "transformers",
+          "safetensors",
+          "license:apache-2.0",
+          "bf16",
+          "mixtral",
+          "text-generation",
+          "conversational",
+          "sft",
+          "vllm",
+          "text-generation-inference",
+          "ollama"
+        ]
+      },
+      "hf_query_examples": [
+        "curl \"https://huggingface.co/api/models?author=mistralai&sort=downloads\""
+      ]
+    }
+  ]
+}
