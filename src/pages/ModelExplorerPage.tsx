@@ -18,7 +18,11 @@ import { AuthModal } from '../components/Auth/AuthModal';
 import { SavedSelectionsDrawer } from '../components/Models/SavedSelectionsDrawer';
 import { IntegrityModal } from '../components/Layout/IntegrityModal';
 
-export const ModelExplorerPage: React.FC = () => {
+interface ModelExplorerPageProps {
+  onSignOut?: () => void;
+}
+
+export const ModelExplorerPage: React.FC<ModelExplorerPageProps> = ({ onSignOut }) => {
   const modelService = ModelService.getInstance();
   const networkManager = NetworkStatusManager.getInstance();
   const authService = AuthService.getInstance();
@@ -178,7 +182,10 @@ export const ModelExplorerPage: React.FC = () => {
         onOpenIntegrityModal={() => setIsIntegrityModalOpen(true)}
         currentUser={currentUser}
         onOpenAuthModal={() => setIsAuthModalOpen(true)}
-        onSignOut={() => authService.signOut()}
+        onSignOut={() => {
+          authService.signOut();
+          if (onSignOut) onSignOut();
+        }}
       />
 
       {/* Offline Alert Banner */}
