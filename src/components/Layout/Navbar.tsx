@@ -15,7 +15,6 @@ interface NavbarProps {
   onToggleSimulatedOffline: () => void;
   savedCount: number;
   onOpenSavedDrawer: () => void;
-  onOpenIntegrityModal: () => void;
   currentUser: AuthUserProfile | null;
   onOpenAuthModal: () => void;
   onSignOut: () => void;
@@ -27,7 +26,6 @@ export const Navbar: React.FC<NavbarProps> = ({
   onToggleSimulatedOffline,
   savedCount,
   onOpenSavedDrawer,
-  onOpenIntegrityModal,
   currentUser,
   onOpenAuthModal,
   onSignOut,
@@ -87,15 +85,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             UNSAFE_style={{ fontSize: '0.8rem' }}
           >
             {isSimulatedOffline ? 'Restore Online' : 'Simulate Offline'}
-          </ActionButton>
-
-          {/* Background Fetch & Integrity Drawer */}
-          <ActionButton
-            isQuiet
-            onPress={onOpenIntegrityModal}
-            UNSAFE_style={{ fontSize: '0.8rem' }}
-          >
-            Integrity & Q9
           </ActionButton>
 
           {/* Saved Selections Drawer Button */}

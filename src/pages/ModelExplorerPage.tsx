@@ -16,7 +16,6 @@ import { ModelGrid } from '../components/Models/ModelGrid';
 import { ModelDetailModal } from '../components/Models/ModelDetailModal';
 import { AuthModal } from '../components/Auth/AuthModal';
 import { SavedSelectionsDrawer } from '../components/Models/SavedSelectionsDrawer';
-import { IntegrityModal } from '../components/Layout/IntegrityModal';
 
 interface ModelExplorerPageProps {
   onSignOut?: () => void;
@@ -65,7 +64,6 @@ export const ModelExplorerPage: React.FC<ModelExplorerPageProps> = ({ onSignOut 
   const [selectedDetailModel, setSelectedDetailModel] = useState<Model | null>(null);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [isSavedDrawerOpen, setIsSavedDrawerOpen] = useState(false);
-  const [isIntegrityModalOpen, setIsIntegrityModalOpen] = useState(false);
 
   // Subscribe to network & auth changes
   useEffect(() => {
@@ -179,7 +177,6 @@ export const ModelExplorerPage: React.FC<ModelExplorerPageProps> = ({ onSignOut 
         onToggleSimulatedOffline={() => networkManager.toggleSimulatedOffline()}
         savedCount={savedSelections.length}
         onOpenSavedDrawer={() => setIsSavedDrawerOpen(true)}
-        onOpenIntegrityModal={() => setIsIntegrityModalOpen(true)}
         currentUser={currentUser}
         onOpenAuthModal={() => setIsAuthModalOpen(true)}
         onSignOut={() => {
@@ -268,11 +265,6 @@ export const ModelExplorerPage: React.FC<ModelExplorerPageProps> = ({ onSignOut 
         selections={savedSelections}
         onUpdateSelection={handleUpdateSelection}
         onDeleteSelection={handleDeleteSelection}
-      />
-
-      <IntegrityModal
-        isOpen={isIntegrityModalOpen}
-        onClose={() => setIsIntegrityModalOpen(false)}
       />
     </div>
   );
